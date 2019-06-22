@@ -318,11 +318,6 @@ body.work-detail .logo--mobile svg .logo-g, body.work-detail .logo svg .logo-g {
   padding-left: 2vw;
 }
 
-@media (max-width:320px) {
-  body {
-    overflow-x: hidden;
-  }
-}
 
 @media (max-width:576.98px) {
   .nav__primary {
@@ -619,6 +614,33 @@ width: 590px;
   #main .t396__carrier {
     height: 10860px;
   }
+}
+
+@media screen and (max-width: 425px) {
+  .smth-2[data-elem-id="1559730321806"] {
+  visibility: hidden;
+  }
+}
+@media screen and (max-width: 425px) {
+.smth-2[data-elem-id='1559730362269'] {
+visibility: hidden;
+}
+}
+@media screen and (max-width: 425px) {
+.smth-2[data-elem-id='1559730409808'] {
+visibility: hidden;
+}
+}
+@media screen and (max-width: 425px) {
+.smth-2[data-elem-id='1559730121055'] {
+visibility: hidden;
+}
+}
+
+@media screen and (max-width: 425px) {
+.smth-2[data-elem-id='1559730463794'] {
+visibility: hidden;
+}
 }
 
 #main .smth-2[data-elem-id="aboutmestory"] {
@@ -1164,7 +1186,14 @@ width: 590px;
     left: calc(50% - 160px + 575px);
   }
 }
+@media screen and (max-width: 320px) {
+  #main .smth-2[data-elem-id="1559730121055"] {
 
+
+
+
+  }
+}
 #main .smth-2[data-elem-id="1559730154222"] {
   z-index: 1;
   top: 244px;
