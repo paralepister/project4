@@ -208,10 +208,24 @@ body.work-detail .logo--mobile svg .logo-g, body.work-detail .logo svg .logo-g {
   }
 }
 
-@media (max-width:576.98px) {
+@media (max-width:320px) {
   .toggle {
     top: 5px;
-    right: 5px
+    margin-right: 930px;
+  }
+}
+
+@media (max-width:375px) {
+  .toggle {
+    top: 5px;
+    margin-right: 930px;
+  }
+}
+
+@media (max-width:425px) {
+  .toggle {
+    top: 5px;
+    margin-right: 930px;
   }
 }
 
@@ -438,7 +452,7 @@ width: 590px;
 
  .t396 .smth-3__img {
    width: 100%;
-   display: block
+   display: block;
  }
 
 
@@ -640,6 +654,12 @@ visibility: hidden;
 
 @media screen and (max-width: 425px) {
 .smth-2[data-elem-id='1559730463794'] {
+visibility: hidden;
+}
+}
+
+@media screen and (max-width: 425px) {
+.smth-2 [data-elem-id='vniz'] {
 visibility: hidden;
 }
 }
