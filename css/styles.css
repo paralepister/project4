@@ -21,8 +21,11 @@ a, body, div, h1, h2, h3, h4, h5, h6, html {
 }
 
 body {
+  perspective: 1px;
+  transform-style: preserve-3d;
   font-family: 'Roboto', sans-serif;
   line-height: 1;
+  box-sizing: border-box;
 }
 
 ol, ul {
@@ -1015,11 +1018,27 @@ visibility: hidden;
 }
 
 #main .smth-2[data-elem-id="1559729975884"] {
+
   z-index: 13;
   top: 2007px;
   left: calc(50% - 600px + 640px);
   width: 550px;
+} /*
+#main .smth-2[data-elem-id="1559729975884"] {
+  transform-style: preserve-3d;
 }
+#main .smth-2[data-elem-id="1559729975884"] :: before {
+
+}*/
+
+
+
+
+
+
+
+
+
 
 #main .smth-2[data-elem-id="1559729975884"] .smth-3 {
   background-position: center center;
@@ -1215,6 +1234,15 @@ visibility: hidden;
 }
 
 #main .smth-2[data-elem-id="1559730121055"] {
+  position: absolute;
+ width: 100%;
+ overflow: hidden;
+ right: -50%;
+ left: -50%;
+  z-index: 1;
+  top: 244px;
+  left: calc(50% - 600px + -149px);
+  width: 1570px;
   z-index: 5;
   top: 2709px;
  margin-left: -5px;
@@ -1271,6 +1299,11 @@ visibility: hidden;
   }
 }
 #main .smth-2[data-elem-id="1559730154222"] {
+  position: absolute;
+ width: 100%;
+ overflow: hidden;
+ right: -50%;
+ left: -50%;
   z-index: 1;
   top: 244px;
   left: calc(50% - 600px + -149px);
