@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap");
 
 html {
+
+  scroll-behavior: smooth;
   position: absolute;
   font-family: 'Roboto', sans-serif;
   overflow-x:hidden;
