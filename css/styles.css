@@ -661,7 +661,11 @@ visibility: hidden;
   border-color: transparent;
   border-style: solid;
 }
-
+@media screen and (max-width: 1199px) {
+#main {
+    -webkit-overflow-scrolling: touch;
+}
+}
 @media screen and (max-width: 1199px) {
   #main .smth-2[data-elem-id="aboutmestory"] {
     top: 222px;
