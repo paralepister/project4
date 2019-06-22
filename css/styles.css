@@ -1059,6 +1059,51 @@ visibility: hidden;
   }
 }
 
+#main .smth-2[data-elem-id="1559729975885"] {
+  z-index: 13;
+  top: 2007px;
+  left: calc(50% - 600px + 640px);
+  width: 550px;
+}
+
+#main .smth-2[data-elem-id="1559729975885"] .smth-3 {
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+}
+
+@media screen and (max-width: 1199px) {
+  #main .smth-2[data-elem-id="1559729975885"] {
+    top: 1965px;
+    left: calc(50% - 480px + 450px);
+    width: 510px;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  #main .smth-2[data-elem-id="1559729975885"] {
+    top: 2235px;
+    left: calc(50% - 320px + 160px);
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  #main .smth-2[data-elem-id="1559729975885"] {
+    top: 1528px;
+    left: calc(50% - 240px + 180px);
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #main .smth-2[data-elem-id="1559729975885"] {
+    top: 1746px;
+    left: calc(50% - 160px + -10px);
+    width: 330px;
+  }
+}
+
 #main .smth-2[data-elem-id="me"] {
   color: #000000;
   z-index: 14;
