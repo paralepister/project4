@@ -1121,7 +1121,7 @@ width: 590px;
 #main .smth-2[data-elem-id="1559730121055"] {
   z-index: 5;
   top: 2709px;
-  left: 0px;
+ margin-left: -5px;
   width: 1480px;
 }
 
