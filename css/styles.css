@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap");
 
+html {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  overflow-x:hidden;
+  line-height: 1.15;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
 a, body, div, h1, h2, h3, h4, h5, h6, html {
   margin: 0;
   padding: 0;
@@ -11,8 +22,6 @@ a, body, div, h1, h2, h3, h4, h5, h6, html {
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1;
-     overflow: auto;
-
 }
 
 ol, ul {
@@ -28,15 +37,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-html {
-  font-family: 'Roboto', sans-serif;
-  overflow-x:hidden;
-  line-height: 1.15;
-  width: 100%;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -ms-overflow-style: scrollbar;
-}
 
 @media print {
   body, html {
@@ -1121,7 +1121,7 @@ width: 590px;
 #main .smth-2[data-elem-id="1559730121055"] {
   z-index: 5;
   top: 2709px;
-  left: calc(50% - 600px + -115px);
+  left: 0px;
   width: 1480px;
 }
 
