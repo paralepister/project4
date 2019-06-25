@@ -329,6 +329,7 @@ p {
 }
 
 @media (max-width: 376px){
+
 p {
     width: 62vw;
     margin-top: -155vw;
